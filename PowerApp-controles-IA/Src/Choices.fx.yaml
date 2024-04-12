@@ -1,0 +1,266 @@
+Choices As screen:
+
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =616
+        Width: =943
+        X: =216
+        Y: =44
+        ZIndex: =1
+
+        DropdownCanvas1 As Dropdown.pcfdataset:
+            DisplayMode: =DisplayMode.Edit
+            Height: =63
+            Items: =Filter('Registros de Empleado' , 'Numero de Identificación1'.Order)
+            Width: =898
+            X: =24
+            Y: =12
+            ZIndex: =1
+
+            "'Numero de Identificación1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Numero de Identificación"
+                FieldName: ="cr97b_numerodeidentificacion"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =1
+                ZIndex: =2
+
+            Estado_civil1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Estado_civil"
+                FieldName: ="cr97b_estado_civil"
+                FieldType: ="l"
+                FieldVariantName: ="textualColumn"
+                Order: =2
+                ZIndex: =3
+
+            Genero1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Genero"
+                FieldName: ="cr97b_genero"
+                FieldType: ="l"
+                FieldVariantName: ="textualColumn"
+                Order: =4
+                ZIndex: =4
+
+            Nombre1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Nombre"
+                FieldName: ="cr97b_nombre"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =6
+                ZIndex: =5
+
+            Apellidos1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Apellidos"
+                FieldName: ="cr97b_apellidos"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =7
+                ZIndex: =6
+
+            País1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="País"
+                FieldName: ="cr97b_pais"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =8
+                ZIndex: =7
+
+            Numero_celular_Contacto_de_Emergencia1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Numero_celular_Contacto_de_Emergencia"
+                FieldName: ="cr97b_numero_celular_contacto_de_emergencia"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =9
+                ZIndex: =8
+
+            Numero_Personal1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Numero_Personal"
+                FieldName: ="cr97b_numero_personal"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =10
+                ZIndex: =9
+
+            Nacionalidad1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Nacionalidad"
+                FieldName: ="cr97b_nacionalidad"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =11
+                ZIndex: =10
+
+            Ciudad1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Ciudad"
+                FieldName: ="cr97b_ciudad"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =12
+                ZIndex: =11
+
+            Código_Postal1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Código_Postal"
+                FieldName: ="cr97b_codigo_postal"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =13
+                ZIndex: =12
+
+            Correo_Electrónico_Personal1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Correo_Electrónico_Personal"
+                FieldName: ="cr97b_correo_electronico_personal"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =14
+                ZIndex: =13
+
+            "'Curp_(clave_única_de_registro_de_población_)1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Curp_(clave_única_de_registro_de_población_)"
+                FieldName: ="cr97b_curp_clave_unica_de_registro_de_poblacion_"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =15
+                ZIndex: =14
+
+            Dirección_de_residencia1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Dirección_de_residencia"
+                FieldName: ="cr97b_direccion_de_residencia"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =16
+                ZIndex: =15
+
+            Fecha_de__Nacimiento1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Fecha_de__Nacimiento"
+                FieldName: ="cr97b_fecha_de__nacimiento"
+                FieldType: ="d"
+                FieldVariantName: ="textualColumn"
+                Order: =17
+                ZIndex: =16
+
+            Fecha_de_vencimiento_permiso_de_residencia1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Fecha_de_vencimiento_permiso_de_residencia"
+                FieldName: ="cr97b_fecha_de_vencimiento_permiso_de_residenciatrabajo"
+                FieldType: ="d"
+                FieldVariantName: ="textualColumn"
+                Order: =18
+                ZIndex: =17
+
+            Nombre_persona_contacto_de_emergencia1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Nombre_persona_contacto_de_emergencia"
+                FieldName: ="cr97b_nombre_persona_contacto_de_emergencia"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =19
+                ZIndex: =18
+
+            Nss1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Nss"
+                FieldName: ="cr97b_nss"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =20
+                ZIndex: =19
+
+            "'Permiso_de_residencia/trabajo NO1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Permiso_de_residencia/trabajo NO"
+                FieldName: ="cr97b_permiso_de_residenciatrabajo"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =21
+                ZIndex: =20
+
+            "'Rfc_(registro_federal_de_contribuyentes)1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Rfc_(registro_federal_de_contribuyentes)"
+                FieldName: ="cr97b_rfc_registro_federal_de_contribuyentes"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =22
+                ZIndex: =21
+
+            Titulaciónno1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Titulaciónno"
+                FieldName: ="cr97b_titulacion"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =23
+                ZIndex: =22
+
+            Años_Experiencia1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Años_Experiencia"
+                FieldName: ="cr97b_anos_experiencia"
+                FieldType: ="n"
+                FieldVariantName: ="textualColumn"
+                Order: =24
+                ZIndex: =23
+
+            Edad1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Edad"
+                FieldName: ="colorb_edad"
+                FieldType: ="n"
+                FieldVariantName: ="textualColumn"
+                Order: =25
+                ZIndex: =24
+
+            Pasaporte1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Pasaporte"
+                FieldName: ="colorb_pasaporte"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =26
+                ZIndex: =25
+
+            "'Cuenta Bancaria1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Cuenta Bancaria"
+                FieldName: ="colorb_cuentabancaria"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =27
+                ZIndex: =26
+
+            Fecha_de_vencimiento_permiso_de_trabajo1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Fecha_de_vencimiento_permiso_de_trabajo"
+                FieldName: ="colorb_fecha_de_vencimiento_permiso_de_trabajo"
+                FieldType: ="d"
+                FieldVariantName: ="textualColumn"
+                Order: =28
+                ZIndex: =27
+
+            "'Permiso_de_Residencia/Trabajo1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Permiso_de_Residencia/Trabajo"
+                FieldName: ="colorb_permiso_de_residenciatrabajo"
+                FieldType: ="l"
+                FieldVariantName: ="textualColumn"
+                Order: =29
+                ZIndex: =28
+
+            "'Disponibilidad de Viajar1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Disponibilidad de Viajar"
+                FieldName: ="colorb_disponibilidaddeviajar"
+                FieldType: ="l"
+                FieldVariantName: ="textualColumn"
+                Order: =31
+                ZIndex: =29
+
+            "'Estado Civil1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Estado Civil"
+                FieldName: ="colorb_estadocivil"
+                FieldType: ="s"
+                FieldVariantName: ="textualColumn"
+                Order: =33
+                ZIndex: =30
+
+            Completado1 As pcfDataField.textualColumn:
+                FieldDisplayName: ="Completado"
+                FieldName: ="colorb_completado"
+                FieldType: ="l"
+                FieldVariantName: ="textualColumn"
+                Order: =34
+                ZIndex: =31
+
+            "'Pasaporte Caducidad1' As pcfDataField.textualColumn":
+                FieldDisplayName: ="Pasaporte Caducidad"
+                FieldName: ="colorb_pasaportecaducidad"
+                FieldType: ="d"
+                FieldVariantName: ="textualColumn"
+                Order: =36
+                ZIndex: =32
+
