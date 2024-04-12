@@ -1,0 +1,208 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr97b_empempresas",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr97b_empempresa",
+    "MaxGetRowsCount": 2000,
+    "Name": "Empleado-Empresa",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "colorb_accesoobra": "Acceso Obra",
+      "colorb_autonomo": "Autonomo",
+      "colorb_CentrodeTrabajo": "Centro de Trabajo",
+      "colorb_cr97b_permiso_IDEmpleado_cr97b_empempresa": "Permiso",
+      "colorb_cuentam365": "Cuenta M365",
+      "colorb_Departamento": "Departamento",
+      "colorb_linkdatosadministracion": "Link Datos Administración",
+      "colorb_Responsable": "Responsable",
+      "colorb_situacionlaboral": "Situación Laboral",
+      "colorb_telefonoempresa": "Teléfono Empresa",
+      "cr97b__inventario_celular_corporativo": "#_inventario_celular_corporativo",
+      "cr97b_Cargo": "Cargo",
+      "cr97b_clasificacion9box": "Clasificación 9box",
+      "cr97b_contratointernoporempresacorporativo": "Contrato Interno por empresa - Corporativono",
+      "cr97b_DNIRelacion": "DNIRelacion",
+      "cr97b_emailcorporativo": "Email Corporativo",
+      "cr97b_empempresa_AsyncOperations": "Trabajos del sistema",
+      "cr97b_empempresa_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr97b_empempresa_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr97b_empempresa_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr97b_empempresa_ProcessSession": "Sesiones de proceso",
+      "cr97b_empempresa_SyncErrors": "Errores de sincronización",
+      "cr97b_empempresaid": "Emp-Empresa",
+      "cr97b_Empresa": "Empresa",
+      "cr97b_fechadeinicio": "Fecha de Inicio",
+      "cr97b_fechadesalida": "Fecha de Salida",
+      "cr97b_historico_de_proyectos_en_que_ha_participado": "histórico_de_proyectos_en_que_ha_participado",
+      "cr97b_historico_de_puestos_desempenados": "historico_de_puestos_desempeñados",
+      "cr97b_lineadeplandecarrera": "Linea de plan de carrera",
+      "cr97b_movil_corporativo__extension_corta": "móvil_corporativo_-_extensión_corta",
+      "cr97b_niveljerarquico": "Nivel Jerárquicono",
+      "cr97b_numero_de_empleado_de_tor": "número_de_empleado_de_TOR",
+      "cr97b_numero_de_identificacion": "Número_de_identificaciónno",
+      "cr97b_oficina_de_trabajo": "Oficina_de_trabajoNo",
+      "cr97b_otros_medios_digitales_inventario": "Otros_medios_digitales/_inventario",
+      "cr97b_Pais": "Sede",
+      "cr97b_pc_asignada_inventario": "Pc_asignada/#_inventario",
+      "cr97b_puesto": "Puestono",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Empleado-Empresa",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Empleado-Empresa (Vistas)",
+    "Name": "_cr97b_empempresa_views",
+    "RelatedEntityName": "Empleado-Empresa",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "09fa1b7e-7381-43c7-a265-a92fbb555264": "Emp-Empresa activo",
+      "2f03fb6e-e2b0-4765-9289-fbbf73e37c07": "Vista asociada de Emp-Empresa",
+      "61a254ea-cd98-46aa-8e74-ce0491f372b5": "Vista de búsqueda avanzada de Emp-Empresa",
+      "739ce981-3f55-4016-9034-e54d1803e67d": "Emp-Empresa inactivo",
+      "c27999ce-ce06-47cd-9956-8bf0a6cd7367": "Vista de búsqueda de Emp-Empresa"
+    }
+  },
+  {
+    "DisplayName": "Acceso Obra (Empleado-Empresa)",
+    "Name": "colorb_cr97b_empempresa_colorb_accesoobra",
+    "OptionSetInfoNameMapping": {
+      "539190001": "Visita",
+      "539190002": "Ejecucion",
+      "539190003": "No"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_accesoobra",
+        "OptionSetReferenceEntityName": "Empleado-Empresa"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "colorb_accesoobra",
+    "RelatedEntityName": "Empleado-Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Autonomo (Empleado-Empresa)",
+    "Name": "colorb_cr97b_empempresa_colorb_autonomo",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Sí"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_autonomo",
+        "OptionSetReferenceEntityName": "Empleado-Empresa"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "colorb_autonomo",
+    "RelatedEntityName": "Empleado-Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Cuenta M365 (Empleado-Empresa)",
+    "Name": "colorb_cr97b_empempresa_colorb_cuentam365",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Sí"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_cuentam365",
+        "OptionSetReferenceEntityName": "Empleado-Empresa"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "colorb_cuentam365",
+    "RelatedEntityName": "Empleado-Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Situación Laboral (Empleado-Empresa)",
+    "Name": "colorb_cr97b_empempresa_colorb_situacionlaboral",
+    "OptionSetInfoNameMapping": {
+      "539190000": "Activo",
+      "539190001": "Permiso de Maternidad",
+      "539190002": "Permiso de Paternidad",
+      "539190003": "Baja por Enfermedad"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_situacionlaboral",
+        "OptionSetReferenceEntityName": "Empleado-Empresa"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "colorb_situacionlaboral",
+    "RelatedEntityName": "Empleado-Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado (Empleado-Empresa)",
+    "Name": "cr97b_empempresa_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Empleado-Empresa"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Empleado-Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Empleado-Empresa)",
+    "Name": "cr97b_empempresa_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Empleado-Empresa"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Empleado-Empresa",
+    "Type": "OptionSetInfo"
+  }
+]

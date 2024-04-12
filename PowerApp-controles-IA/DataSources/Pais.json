@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "colorb_paises",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "colorb_pais",
+    "MaxGetRowsCount": 2000,
+    "Name": "Pais",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "colorb_cr97b_permiso_Pais_colorb_pais": "Permiso",
+      "colorb_dptopais_PaisRelacion_colorb_pais": "Dpto-Pais",
+      "colorb_nombre": "Nombre",
+      "colorb_oficina_Pais_colorb_pais": "Oficina",
+      "colorb_pais_AsyncOperations": "Trabajos del sistema",
+      "colorb_pais_BulkDeleteFailures": "Errores de eliminación en masa",
+      "colorb_pais_DuplicateBaseRecord": "Registros duplicados (colorb_pais_DuplicateBaseRecord)",
+      "colorb_pais_DuplicateMatchingRecord": "Registros duplicados (colorb_pais_DuplicateMatchingRecord)",
+      "colorb_pais_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "colorb_pais_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "colorb_pais_ProcessSession": "Sesiones de proceso",
+      "colorb_pais_SyncErrors": "Errores de sincronización",
+      "colorb_paisid": "Pais",
+      "colorb_rempleadoempresa_Sede_colorb_pais": "R-Empleado-Empresa",
+      "colorb_responsable_Pais_colorb_pais": "Responsables",
+      "cr97b_empempresa_Pais_colorb_pais": "Empleado-Empresa",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Pais",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Pais (Vistas)",
+    "Name": "_colorb_pais_views",
+    "RelatedEntityName": "Pais",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1436ac75-f1f4-4080-b344-1bd08a0f87ec": "Vista de búsqueda avanzada de Pais",
+      "48abc5aa-bace-48a8-94b7-c5fb44567721": "Pais inactivo",
+      "9227ec32-1512-4aaa-80bf-9e54e2fb7c6b": "Vista de búsqueda de Pais",
+      "c3ee1031-2317-4a2c-8e1a-7114867b1b9f": "Pais activo",
+      "c5634d3e-6f09-4296-b3fd-22a124d841ea": "Vista asociada de Pais"
+    }
+  },
+  {
+    "DisplayName": "Estado (Pais)",
+    "Name": "colorb_pais_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Pais"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Pais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Pais)",
+    "Name": "colorb_pais_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Pais"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Pais",
+    "Type": "OptionSetInfo"
+  }
+]

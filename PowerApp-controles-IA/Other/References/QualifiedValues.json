@@ -1,0 +1,246 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr97b_registrosdeempleado_forms",
+      "Namespace": "Registros de Empleado (Forms)",
+      "Values": {
+        "Información": "90670dc6-2d65-4867-8b80-908b36febfdd"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_empempresa_forms",
+      "Namespace": "Empleado-Empresa (Forms)",
+      "Values": {
+        "Información": "fe0f507a-8eab-4d66-846d-c8420213df5c"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_pais_forms",
+      "Namespace": "Pais (Forms)",
+      "Values": {
+        "Información": "62ae4a46-fca5-4cd8-b679-eb794eb67f9e"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_empresa_forms",
+      "Namespace": "Empresa (Forms)",
+      "Values": {
+        "Información": "16d4c662-789f-4c57-bc71-d6bce66ad344"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_cargo_forms",
+      "Namespace": "Cargo (Forms)",
+      "Values": {
+        "Información": "6217d717-d1ab-4d8c-a6a7-88a3889dc827"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_shhkey_forms",
+      "Namespace": "Shh-Keys (Forms)",
+      "Values": {
+        "Información": "0faa0734-4811-4bb0-8e5e-bbc70a77da1b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_registrosdeempleado_forms",
+      "Namespace": "Registros de Empleado (Formularios)",
+      "Values": {
+        "Información": "90670dc6-2d65-4867-8b80-908b36febfdd"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_empempresa_forms",
+      "Namespace": "Empleado-Empresa (Formularios)",
+      "Values": {
+        "Información": "fe0f507a-8eab-4d66-846d-c8420213df5c"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_pais_forms",
+      "Namespace": "Pais (Formularios)",
+      "Values": {
+        "Información": "62ae4a46-fca5-4cd8-b679-eb794eb67f9e"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_empresa_forms",
+      "Namespace": "Empresa (Formularios)",
+      "Values": {
+        "Información": "16d4c662-789f-4c57-bc71-d6bce66ad344"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_cargo_forms",
+      "Namespace": "Cargo (Formularios)",
+      "Values": {
+        "Información": "6217d717-d1ab-4d8c-a6a7-88a3889dc827"
+      }
+    },
+    {
+      "Kind": "default.cds_colorb_shhkey_forms",
+      "Namespace": "Shh-Keys (Formularios)",
+      "Values": {
+        "Información": "0faa0734-4811-4bb0-8e5e-bbc70a77da1b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_tablamestra_filtros_forms",
+      "Namespace": "TablaMestra_filtross (Formularios)",
+      "Values": {
+        "Información": "a34fd631-de0e-4c04-90d2-afb29b07a909"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_empempresafinal_forms",
+      "Namespace": "cr97b_empempresafinals (Formularios)",
+      "Values": {
+        "Información": "af4e6547-be94-443b-97e4-de6454bd91de"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_marge_empleado_empresa_personal_forms",
+      "Namespace": "Marge_empleado_empresa_personals (Formularios)",
+      "Values": {
+        "Información": "e4dcc78c-66f1-4de3-925c-5f3a2168705f"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_registroautomatico_forms",
+      "Namespace": "RegistroAutomaticos (Formularios)",
+      "Values": {
+        "Información": "829221be-f017-49da-a402-85338d53c4af"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_registrodeempleados1_forms",
+      "Namespace": "Registro de Empleado (Formularios)",
+      "Values": {
+        "Información": "7baa8c42-ebf0-4c41-a1f3-910757afdea6"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_empleadoempresa_forms",
+      "Namespace": "Empleado-Empresa (Formularios)1",
+      "Values": {
+        "Información": "40dc9171-4fa1-4c6a-b7fd-c98725a9e7e9"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_encuestaspersonalizadas_forms",
+      "Namespace": "Encuestas Personalizadas (Formularios)",
+      "Values": {
+        "Información": "92f9e0d2-3686-4896-81fc-c59b065b07c7"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_empleados_forms",
+      "Namespace": "Empleados-Empresa (Formularios)",
+      "Values": {
+        "Información": "fe839efc-dff3-4ceb-b3fe-c7fb6f92a715"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_plantillascursos_forms",
+      "Namespace": "Plantillas-Cursos (Formularios)",
+      "Values": {
+        "Información": "f54cf12c-c803-44d6-93b2-cd9efdddea7f"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_catalago_cursos_goc_proyeco_forms",
+      "Namespace": "CATALAGO_CURSOS_GOC_PROYECOS (Formularios)",
+      "Values": {
+        "Información": "dbace4a6-f8e8-4e48-bf74-a217f2f7cd0f"
+      }
+    },
+    {
+      "Kind": "default.cds_fgoc_catalago_cursos_goc_proyeco_forms",
+      "Namespace": "CATALAGO_S (Formularios)",
+      "Values": {
+        "Información": "97a50e20-fb56-4a7a-af2e-7c775de9f403"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_solicitudcursos_forms",
+      "Namespace": "SolicitudCursos (Formularios)",
+      "Values": {
+        "Información": "05756ade-cc37-4618-a627-bf79db492bbd"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_encuestasgenericas_forms",
+      "Namespace": "Encuestas Genericas (Formularios)",
+      "Values": {
+        "Información": "694391e6-7514-452b-8a56-c898d9548dff"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_encuestassatisfaccion_forms",
+      "Namespace": "Encuestas Satisfaccions (Formularios)",
+      "Values": {
+        "Información": "1f0047df-2e63-40a1-851d-4e09c34d5f3e"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_inscripcionespharos_forms",
+      "Namespace": "InscripcionesPharos (Formularios)",
+      "Values": {
+        "Información": "339d5493-e066-414d-921f-e596417af07b"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_gruposdeusuarios_forms",
+      "Namespace": "Grupos de usuarios (Formularios)",
+      "Values": {
+        "Información": "460df02f-e982-418a-864f-e60132639b77"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_plantilladeestudio_forms",
+      "Namespace": "PlantillaDeEstudios (Formularios)",
+      "Values": {
+        "Información": "212bf7fe-2f5b-415d-a533-707cbccf497b"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_tablaasignaciones_forms",
+      "Namespace": "Tabla-Asignaciones (Formularios)",
+      "Values": {
+        "Información": "61abac05-980a-4ee9-a1a5-b820647d5b4f"
+      }
+    },
+    {
+      "Kind": "default.cds_gabrield_usuarios_plantillas_forms",
+      "Namespace": "Usuarios_Plantillas (Formularios)",
+      "Values": {
+        "Información": "6bdbd0da-1044-4e77-92ae-3a325006508d"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_catalago_cursos_goc_proyeco_forms",
+      "Namespace": "CursosPharos (Formularios)",
+      "Values": {
+        "Información": "dbace4a6-f8e8-4e48-bf74-a217f2f7cd0f"
+      }
+    },
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "Usuarios (Formularios)",
+      "Values": {
+        "Formulario de usuario – Business": "c2413504-7eb2-4c59-a087-95d819866114",
+        "Formulario de ventana de jerarquía de usuario": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452",
+        "Información": "094fb08a-77bb-49e0-b7ea-8dbddfd01294",
+        "Usuario": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "Usuario de la aplicación": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8"
+      }
+    },
+    {
+      "Kind": "default.cds_cr97b_empempresa_forms",
+      "Namespace": "Empleado-Empresa (Formularios)11",
+      "Values": {
+        "Información": "fe0f507a-8eab-4d66-846d-c8420213df5c"
+      }
+    }
+  ]
+}

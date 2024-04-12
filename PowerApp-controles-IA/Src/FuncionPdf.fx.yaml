@@ -1,0 +1,123 @@
+FuncionPdf As screen:
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        DelayItemLoading: =true
+        Items: =Usuarios
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateFill: =If(ThisItem.IsSelected , Color.Orange ,Color.AliceBlue)
+        TemplatePadding: =0
+        TemplateSize: =104
+        X: =44
+        Y: =48
+        ZIndex: =1
+
+        Subtitle1 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =Self.Size * 1.8
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.name
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Title3.Width
+            X: =Title3.X
+            Y: =Title3.Y + Title3.Height
+            ZIndex: =3
+
+        Separator1 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Rectangle3 As rectangle:
+            Height: =Parent.TemplateHeight - Separator1.Height
+            OnSelect: =Select(Parent)
+            Visible: =ThisItem.IsSelected
+            Width: =4
+            ZIndex: =6
+
+        Label3_1 As label:
+            Color: =RGBA(139, 154, 159, 1)
+            Text: ="Name"
+            X: =52
+            Y: =21
+            ZIndex: =7
+
+        Label3_2 As label:
+            FontWeight: =FontWeight.Bold
+            Text: =ThisItem.name
+            X: =115
+            Y: =21
+            ZIndex: =8
+
+        Label3_3 As label:
+            Color: =RGBA(139, 154, 159, 1)
+            Text: ="Age"
+            X: =52
+            Y: =56
+            ZIndex: =9
+
+        Label3_4 As label:
+            FontWeight: =FontWeight.Bold
+            Text: =ThisItem.age
+            X: =115
+            Y: =64
+            ZIndex: =10
+
+        Button1 As button:
+            OnSelect: |-
+                =UpdateContext({firma:true})
+            Text: ="Firmar"
+            X: =446
+            Y: =38
+            ZIndex: =11
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =6
+
+        Rectangle5 As rectangle:
+            Fill: =RGBA(0, 0, 0, 0.47)
+            Height: =768
+            Visible: =firma
+            Width: =1366
+            ZIndex: =2
+
+        PenInput1 As inkControl:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =352
+            Visible: =firma
+            Width: =489
+            X: =412
+            Y: =112
+            ZIndex: =3
+
+        Button2 As button:
+            Fill: =RGBA(71, 158, 245, 1)
+            Height: =82
+            OnSelect: =Navigate(FuncionPdf_1)
+            Text: ="Firmar y generar"
+            Visible: =firma
+            Width: =303
+            X: =505
+            Y: =491
+            ZIndex: =4
+
+        Icon1 As icon.Cancel:
+            Color: =RGBA(240, 98, 15, 1)
+            Icon: =Icon.Cancel
+            OnSelect: |-
+                =UpdateContext({firma:false})
+            Visible: =firma
+            X: =856
+            Y: =88
+            ZIndex: =5
+

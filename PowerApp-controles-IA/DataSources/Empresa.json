@@ -1,0 +1,129 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "colorb_empresas",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "colorb_empresa",
+    "MaxGetRowsCount": 2000,
+    "Name": "Empresa",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "colorb_contrato_IdEmpresa_colorb_empresa": "Contrato",
+      "colorb_cr97b_permiso_Empresa_colorb_empresa": "Permiso",
+      "colorb_empresa_AsyncOperations": "Trabajos del sistema",
+      "colorb_empresa_BulkDeleteFailures": "Errores de eliminación en masa",
+      "colorb_empresa_DuplicateBaseRecord": "Registros duplicados (colorb_empresa_DuplicateBaseRecord)",
+      "colorb_empresa_DuplicateMatchingRecord": "Registros duplicados (colorb_empresa_DuplicateMatchingRecord)",
+      "colorb_empresa_FileAttachments": "FileAttachments",
+      "colorb_empresa_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "colorb_empresa_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "colorb_empresa_ProcessSession": "Sesiones de proceso",
+      "colorb_empresa_SyncErrors": "Errores de sincronización",
+      "colorb_empresadepartamento_Empresa_colorb_empres": "Empresa-Departamento",
+      "colorb_empresaid": "Empresa",
+      "colorb_nombre": "Nombre",
+      "colorb_rempleadoempresa_Empresa_colorb_empresa": "R-Empleado-Empresa",
+      "colorb_responsable_Empresa_colorb_empresa": "Responsables",
+      "colorb_tenant": "Tenant",
+      "cr97b_empempresa_Empresa_colorb_empresa": "Empleado-Empresa",
+      "cr97b_imagencorporativa": "Imagen Corporativa",
+      "cr97b_imagencorporativaid": "cr97b_ImagenCorporativaId",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Empresa",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Empresa (Vistas)",
+    "Name": "_colorb_empresa_views",
+    "RelatedEntityName": "Empresa",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "29a92c87-d6cc-4b59-bd00-39f83def4bab": "Empresa activo",
+      "44c04017-1a0e-4ca0-b5ff-e37b48c1a7be": "Empresa inactivo",
+      "809410f0-2cec-495d-8fca-3bceb17d3a39": "Vista de búsqueda de Empresa",
+      "96f7d814-8481-4981-9c1b-b3df63b49874": "Vista asociada de Empresa",
+      "f0f6c766-93e0-4c8b-846e-23c0712af16a": "Vista de búsqueda avanzada de Empresa"
+    }
+  },
+  {
+    "DisplayName": "Tenant (Empresa)",
+    "Name": "colorb_empresa_colorb_tenant",
+    "OptionSetInfoNameMapping": {
+      "539190000": "PROYECO",
+      "539190001": "GOC",
+      "539190002": "IF",
+      "539190003": "FWP"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_tenant",
+        "OptionSetReferenceEntityName": "Empresa"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "colorb_tenant",
+    "RelatedEntityName": "Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado (Empresa)",
+    "Name": "colorb_empresa_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Empresa"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Empresa",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Empresa)",
+    "Name": "colorb_empresa_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Empresa"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Empresa",
+    "Type": "OptionSetInfo"
+  }
+]

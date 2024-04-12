@@ -1,0 +1,81 @@
+FuncionPdf_1 As screen:
+
+    Rectangle6 As rectangle:
+        Width: =1366
+        ZIndex: =1
+
+    Icon2 As icon.BackArrow:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.BackArrow
+        X: =23
+        Y: =18
+        ZIndex: =2
+
+    Icon3 As icon.DocumentPDF:
+        Color: =RGBA(255, 255, 255, 1)
+        Icon: =Icon.DocumentPDF
+        OnSelect: |-
+            =Office365Outlook.SendEmailV2(User().Email , "My certificado" , "Certificado" , {Attachments:Table({Name:"Certificados.pdf" , ContentBytes:PDF(FuncionPdf_1,{ExpandContainers:true})} )});Notify("Certificado creado y formado" , NotificationType.Success)
+        X: =1253
+        Y: =18
+        ZIndex: =3
+
+    Label4 As label:
+        Color: =RGBA(139, 154, 159, 1)
+        Height: =97
+        Size: =39
+        Text: ="Nombre del usuario"
+        Width: =657
+        X: =170
+        Y: =156
+        ZIndex: =4
+
+    Label4_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =97
+        Size: =39
+        Text: =Gallery1.Selected.name
+        Width: =293
+        X: =765
+        Y: =156
+        ZIndex: =5
+
+    Label4_2 As label:
+        Color: =RGBA(139, 154, 159, 1)
+        Height: =97
+        Size: =39
+        Text: ="Edad del usuario"
+        Width: =657
+        X: =170
+        Y: =326
+        ZIndex: =6
+
+    Label4_3 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =97
+        Size: =39
+        Text: =Gallery1.Selected.age
+        Width: =293
+        X: =786
+        Y: =326
+        ZIndex: =7
+
+    Image2 As image:
+        Height: =163
+        Image: =PenInput1.Image
+        ImagePosition: =ImagePosition.Stretch
+        Width: =467
+        X: =416
+        Y: =547
+        ZIndex: =8
+
+    Label4_4 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =97
+        Size: =39
+        Text: ="Firma"
+        Width: =293
+        X: =416
+        Y: =568
+        ZIndex: =9
+

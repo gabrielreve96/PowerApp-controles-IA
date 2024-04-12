@@ -1,0 +1,233 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr97b_registrosdeempleados",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr97b_registrosdeempleado",
+    "MaxGetRowsCount": 2000,
+    "Name": "Registros de Empleado",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "colorb_completado": "Completado",
+      "colorb_cr97b_empempresa_Responsable_cr97b_regist": "Empleado-Empresa (colorb_cr97b_empempresa_Responsable_cr97b_regist)",
+      "colorb_cuentabancaria": "Cuenta Bancaria",
+      "colorb_departamento_Responsable_cr97b_registrosd": "Departamento",
+      "colorb_disponibilidaddeviajar": "Disponibilidad de Viajar",
+      "colorb_edad": "Edad",
+      "colorb_estadocivil": "Estado Civil",
+      "colorb_fecha_de_vencimiento_permiso_de_trabajo": "Fecha_de_vencimiento_permiso_de_trabajo",
+      "colorb_pasaporte": "Pasaporte",
+      "colorb_pasaportecaducidad": "Pasaporte Caducidad",
+      "colorb_permiso_de_residenciatrabajo": "Permiso_de_Residencia/Trabajo",
+      "colorb_responsable_ResponsableNombre_cr97b_regis": "Responsables",
+      "cr97b_anos_experiencia": "Años_Experiencia",
+      "cr97b_apellidos": "Apellidos",
+      "cr97b_ciudad": "Ciudad",
+      "cr97b_codigo_postal": "Código_Postal",
+      "cr97b_correo_electronico_personal": "Correo_Electrónico_Personal",
+      "cr97b_curp_clave_unica_de_registro_de_poblacion_": "Curp_(clave_única_de_registro_de_población_)",
+      "cr97b_direccion_de_residencia": "Dirección_de_residencia",
+      "cr97b_empempresa_DNIRelacion_cr97b_registrosdee": "Empleado-Empresa (cr97b_empempresa_DNIRelacion_cr97b_registrosdee)",
+      "cr97b_estado_civil": "Estado_civil",
+      "cr97b_fecha_de__nacimiento": "Fecha_de__Nacimiento",
+      "cr97b_fecha_de_vencimiento_permiso_de_residenciatrabajo": "Fecha_de_vencimiento_permiso_de_residencia",
+      "cr97b_genero": "Genero",
+      "cr97b_nacionalidad": "Nacionalidad",
+      "cr97b_nombre": "Nombre",
+      "cr97b_nombre_persona_contacto_de_emergencia": "Nombre_persona_contacto_de_emergencia",
+      "cr97b_nss": "Nss",
+      "cr97b_numero_celular_contacto_de_emergencia": "Numero_celular_Contacto_de_Emergencia",
+      "cr97b_numero_personal": "Numero_Personal",
+      "cr97b_numerodeidentificacion": "Numero de Identificación",
+      "cr97b_pais": "País",
+      "cr97b_permiso_de_residenciatrabajo": "Permiso_de_residencia/trabajo NO",
+      "cr97b_registrosdeempleado_AsyncOperations": "Trabajos del sistema",
+      "cr97b_registrosdeempleado_BulkDeleteFailures": "Errores de eliminación en masa",
+      "cr97b_registrosdeempleado_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "cr97b_registrosdeempleado_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "cr97b_registrosdeempleado_ProcessSession": "Sesiones de proceso",
+      "cr97b_registrosdeempleado_SyncErrors": "Errores de sincronización",
+      "cr97b_registrosdeempleadoid": "Registros de Empleado",
+      "cr97b_rfc_registro_federal_de_contribuyentes": "Rfc_(registro_federal_de_contribuyentes)",
+      "cr97b_titulacion": "Titulaciónno",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Registros de Empleado",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Registros de Empleado (Vistas)",
+    "Name": "_cr97b_registrosdeempleado_views",
+    "RelatedEntityName": "Registros de Empleado",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "426f86f9-86ef-407d-9a07-ce69ef07cc38": "Registros de Empleado inactivo",
+      "678633c4-afa5-4a05-981b-525dea59365d": "Vista de búsqueda de Registros de Empleado",
+      "82332ee0-62af-4f0c-b79e-7cf663bd84e1": "Vista asociada de Registros de Empleado",
+      "eeefff3c-f0ef-4150-ac75-90197dc05148": "Vista de búsqueda avanzada de Registros de Empleado",
+      "ffadf1ec-aec6-431b-bd88-fe9bf7dd6f56": "Registros de Empleado activo"
+    }
+  },
+  {
+    "DisplayName": "Completado (Registros de Empleado)",
+    "Name": "colorb_cr97b_registrosdeempleado_colorb_completado",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Sí"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_completado",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "colorb_completado",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Disponibilidad de Viajar (Registros de Empleado)",
+    "Name": "colorb_cr97b_registrosdeempleado_colorb_disponibilidaddeviajar",
+    "OptionSetInfoNameMapping": {
+      "0": "No",
+      "1": "Sí"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_disponibilidaddeviajar",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "colorb_disponibilidaddeviajar",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Permiso_de_Residencia/Trabajo (Registros de Empleado)",
+    "Name": "colorb_cr97b_registrosdeempleado_colorb_permiso_de_residenciatrabajo",
+    "OptionSetInfoNameMapping": {
+      "539190000": "Permiso de Trabajo",
+      "539190001": "Permiso de Residencia",
+      "539190002": "Ambas",
+      "539190003": "N/A"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "colorb_permiso_de_residenciatrabajo",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "colorb_permiso_de_residenciatrabajo",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado_civil (Registros de Empleado)",
+    "Name": "cr97b_registrosdeempleado_cr97b_estado_civil",
+    "OptionSetInfoNameMapping": {
+      "655240000": "Soltero",
+      "655240001": "Casado",
+      "655240002": "Viudo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr97b_estado_civil",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr97b_estado_civil",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Genero (Registros de Empleado)",
+    "Name": "cr97b_registrosdeempleado_cr97b_genero",
+    "OptionSetInfoNameMapping": {
+      "539190001": "Otros",
+      "655240000": "Femenino",
+      "655240001": "Masculino"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr97b_genero",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr97b_genero",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado (Registros de Empleado)",
+    "Name": "cr97b_registrosdeempleado_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Registros de Empleado)",
+    "Name": "cr97b_registrosdeempleado_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Registros de Empleado"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Registros de Empleado",
+    "Type": "OptionSetInfo"
+  }
+]

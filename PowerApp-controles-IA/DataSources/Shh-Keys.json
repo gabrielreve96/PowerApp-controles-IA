@@ -1,0 +1,100 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "colorb_shhkeies",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "colorb_shhkey",
+    "MaxGetRowsCount": 2000,
+    "Name": "Shh-Keys",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Propietario",
+      "colorb_descripcion": "Descripcion",
+      "colorb_keyssh": "Key-ssh",
+      "colorb_name": "Name",
+      "colorb_shhkey_AsyncOperations": "Trabajos del sistema",
+      "colorb_shhkey_BulkDeleteFailures": "Errores de eliminación en masa",
+      "colorb_shhkey_DuplicateBaseRecord": "Registros duplicados (colorb_shhkey_DuplicateBaseRecord)",
+      "colorb_shhkey_DuplicateMatchingRecord": "Registros duplicados (colorb_shhkey_DuplicateMatchingRecord)",
+      "colorb_shhkey_MailboxTrackingFolders": "Carpetas de seguimiento automático del buzón",
+      "colorb_shhkey_PrincipalObjectAttributeAccesses": "Uso compartido de campos",
+      "colorb_shhkey_ProcessSession": "Sesiones de proceso",
+      "colorb_shhkey_SyncErrors": "Errores de sincronización",
+      "colorb_shhkeyid": "Shh-Key",
+      "colorb_status_code": "statuscode (colorb_status_code)",
+      "createdby": "Autor",
+      "createdon": "Fecha de creación",
+      "createdonbehalfby": "Autor (delegado)",
+      "importsequencenumber": "Número de secuencia de importación",
+      "modifiedby": "Modificado por",
+      "modifiedon": "Fecha de modificación",
+      "modifiedonbehalfby": "Modificado por (delegado)",
+      "overriddencreatedon": "Fecha de creación del registro",
+      "owningbusinessunit": "Unidad de negocio propietaria",
+      "owningteam": "Equipo propietario",
+      "owninguser": "Usuario propietario",
+      "statecode": "Estado",
+      "statuscode": "Razón para el estado",
+      "timezoneruleversionnumber": "Número de versión de regla de zona horaria",
+      "utcconversiontimezonecode": "Código de zona horaria de conversión UTC",
+      "versionnumber": "Número de versión"
+    },
+    "PreferredName": "Shh-Keys",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Shh-Keys (Vistas)",
+    "Name": "_colorb_shhkey_views",
+    "RelatedEntityName": "Shh-Keys",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "40c3f780-d930-4b11-b748-cf87bba63a7c": "Vista de búsqueda avanzada de Shh-Key",
+      "4949f961-9ea6-4504-9b70-9caa73138ac2": "Shh-Keys activo",
+      "75c34817-57d5-4d5e-8868-0397ae1d0eb2": "Vista de búsqueda de Shh-Key",
+      "7b049cfa-c5fb-4c39-b614-fc1b1506d5b0": "Vista asociada de Shh-Key",
+      "be7d740e-4173-4a82-bb0b-ffc390e925c1": "Shh-Keys inactivo"
+    }
+  },
+  {
+    "DisplayName": "Estado (Shh-Keys)",
+    "Name": "colorb_shhkey_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Activo",
+      "1": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Shh-Keys"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Shh-Keys",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razón para el estado (Shh-Keys)",
+    "Name": "colorb_shhkey_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Activo",
+      "2": "Inactivo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Shh-Keys"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Shh-Keys",
+    "Type": "OptionSetInfo"
+  }
+]

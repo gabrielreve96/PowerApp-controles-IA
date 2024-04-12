@@ -1,0 +1,24 @@
+"'Funcion Host' As screen":
+
+    Label1 As label:
+        Height: =122
+        Text: =Host.BrowserUserAgent
+        Width: =1179
+        X: =60
+        Y: =72
+        ZIndex: =1
+
+    Label2 As label:
+        Text: ="Texto"
+        X: =60
+        Y: =32
+        ZIndex: =2
+
+    Label1_1 As label:
+        Height: =122
+        Text: =Host.OSType
+        Width: =1179
+        X: =60
+        Y: =169
+        ZIndex: =3
+
